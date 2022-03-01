@@ -1,0 +1,123 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.header-logo {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    filter: contrast(30%);
+    color: white;
+    list-style-type: none;
+}
+
+li {
+    padding: 0 16px;
+}
+
+.section-one {
+    background-color: #1F2937;
+    display: flex;
+    padding: 10%;
+    justify-content: space-between;
+}
+
+.section-one-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.section-one-title{
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+    padding: 16px 0;
+}
+
+.section-one-subtext {
+    color: white;
+    padding: 16px 0;
+}
+
+#section-one-button {
+    background-color: #3882F6;
+    color: white;
+
+}
+
+.section-one-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-two-header {
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.section-two-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+
+.section-three {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.section-three-signature {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.section-four-subsection {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    padding: 24px;
+}
